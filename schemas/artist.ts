@@ -11,6 +11,16 @@ export default {
       title: 'Name',
     },
     {
+      name: 'slug',
+      type: 'slug',
+      title: 'Slug',
+    },
+    {
+      name: 'image',
+      type: 'image',
+      title: 'Image',
+    },
+    {
       name: 'bio',
       type: 'string',
       title: 'Bio',
@@ -21,7 +31,7 @@ export default {
       title: 'Location',
     },
     {
-      name: 'Links',
+      name: 'links',
       type: 'array',
       title: 'Links',
       of: [{type: 'link'}],
